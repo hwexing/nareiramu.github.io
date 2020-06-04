@@ -1,0 +1,146 @@
+@@charset "UTF-8";
+
+header-list a{
+  text-decoration: none;
+}
+
+img{
+  max-width: 100%;
+}
+
+.logo{
+  width: 300px;
+  margin: 30px 10px 30px 50px;
+}
+
+.header-list{
+  display: flex;
+  font-size: 10px;
+  text-transform: uppercase;
+  list-style: none;
+  margin: 70px 200px 30px 100px;
+  font-family: 'Playfair Display', serif;
+
+}
+
+.header-list a:hover{
+  color: #bc8f8f
+}
+
+.header-list li{
+  margin-left: 100px;
+}
+
+.header-list a{
+  color: black;
+}
+
+.page-header{
+  display: flex;
+  justify-content: space-between;
+}
+
+h1,h3{
+  font-family: 'Playfair Display', serif;
+}
+
+.main-photo{
+  margin-top: 50px;
+}
+.container h3{
+  padding-left:70px;
+  color: #BC8F8F
+}
+.container h1{
+  padding-left: 110px;
+}
+
+
+/* garalley:  */
+.item{
+  width: 30%;
+  float: left;
+  padding: 50px 20px 20px 20px;
+}
+
+.portfolio-xx{
+  padding-left: 10px;
+}
+
+/* about:  */
+.about-photo{
+ width: 400px;
+
+}
+.about-contents{
+  width: 400px;
+  margin: 100px 50px 50px 300px;
+  border-top: 1px solid #BC8F8F;
+
+}
+.about-contents p{
+  font-family: "YuMincho +36p Kana","游明朝体+36ポかな";
+}
+
+.instagram a{
+  text-decoration: none;
+  color: #BC8F8F
+}
+
+.instagram a:hover{
+  text-decoration: underline;
+}
+
+
+
+.about{
+ display: flex;
+
+}
+
+/* contact:  */
+
+form{
+  height: 400px;
+  position: relative;
+}
+
+.form-text{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%,-50%);
+}
+.form-text h1{
+  padding-bottom: 30px;
+  font-size: 30px;
+  padding-left: 20px;
+}
+.form-text p{
+  font-family: 'Playfair Display', serif;
+}
+
+input{
+  padding: 5px;
+  width: 160px;
+  border: 1px solid #BC8F8F;
+}
+
+textarea{
+  width: 200px;
+  padding: 20px;
+  border: 1px solid #BC8F8F;
+}
+
+.send{
+  margin-left: 40px;
+  background-color: #BC8F8F;
+  color:white;
+}
+
+.instagram{
+  margin-top: 100px;
+  font-family: 'Playfair Display', serif;
+}
